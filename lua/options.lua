@@ -10,8 +10,10 @@ vim.opt.shiftwidth = 4
 
 vim.opt.clipboard = "unnamedplus"
 vim.opt.virtualedit = "block"
--- vim.opt.scrolloff = 999
+vim.opt.scrolloff = 999
 
 vim.opt.inccommand = "split"
 vim.opt.ignorecase = true
 -- vim.opt.termguicolors = true
+--
+vim.g.mapleader = " "

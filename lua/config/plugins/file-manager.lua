@@ -4,7 +4,13 @@ return {
 		 "nvim-lua/plenary.nvim"
 	},
 	{
-		"nvim-tree/nvim-web-devicons"
+		"nvim-tree/nvim-web-devicons",
+		config = function ()
+			require('nvim-web-devicons').setup({
+				color_icons = true,
+				default = true,
+			})
+		end,
 	},
 	{
 		"MunifTanjim/nui.nvim"
